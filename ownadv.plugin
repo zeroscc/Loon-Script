@@ -1,7 +1,7 @@
 [URL Rewrite]
 
 # > wangyiyun - iadmusicmat.music.126.net
-^https?:\/\/iadmusicmat\.music\.126\.net\/ - reject
+^https?:\/\/iadmusicmat\.music\.126\.net\/ - reject-200
 
 [MITM]
 hostname = iadmusicmat.music.126.net
