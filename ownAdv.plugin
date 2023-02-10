@@ -1,0 +1,10 @@
+[URL Rewrite]
+
+# > 网易云 - iadmusicmat.music.126.net
+^https?:\/\/iadmusicmat\.music\.126\.net\/ - reject-200
+
+# > 美团 - https://img.meituan.net/bizad/
+^https?:\/\/img\.meituan\.net\/bizad\/ - reject-200
+
+[MITM]
+hostname = iadmusicmat.music.126.net, img.meituan.net
