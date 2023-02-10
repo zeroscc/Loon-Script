@@ -4,9 +4,10 @@
 ^https?:\/\/iadmusicmat\.music\.126\.net\/ - reject-200
 ^https?:\/\/iadmat\.nosdn\.127\.net\/ - reject-200
 ^https?:\/\/pgdt\.ugdtimg\.com\/ - reject-200
+^https?:\/\/bj\.ad\.track\.66mobi\.com\/ - reject-200
 
 # > 美团 - https://img.meituan.net/bizad/
 ^https?:\/\/img\.meituan\.net\/bizad\/ - reject-200
 
 [MITM]
-hostname = iadmusicmat.music.126.net, iadmat.nosdn.127.net, pgdt.ugdtimg.com, img.meituan.net
+hostname = iadmusicmat.music.126.net, iadmat.nosdn.127.net, pgdt.ugdtimg.com, bj.ad.track.66mobi.com, img.meituan.net
