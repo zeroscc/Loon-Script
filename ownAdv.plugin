@@ -3,14 +3,14 @@
 # > 网易云 - iadmusicmat.music.126.net
 ^https?:\/\/iadmusicmat\.music\.126\.net\/ - reject
 ^https?:\/\/iadmat\.nosdn\.127\.net\/ - reject
-^https?:\/\/pgdt\.ugdtimg\.com\/ - reject-200
-^https?:\/\/bj\.ad\.track\.66mobi\.com\/ - reject-200
+^https?:\/\/pgdt\.ugdtimg\.com\/ - reject
+^https?:\/\/bj\.ad\.track\.66mobi\.com\/ - reject
 ^https?:\/\/cdn\.ads\.rgyun\.com\/ - reject
 ^https?:\/\/imp\.ads\.rgyun\.com\/ - reject
 ^https?:\/\/monitor\.ads\.8le8le\.com\/ - reject
 
 # > 美团 - https://img.meituan.net/bizad/
-^https?:\/\/img\.meituan\.net\/bizad\/ - reject-200
+^https?:\/\/img\.meituan\.net\/bizad\/ - reject
 
 [MITM]
 hostname = monitor.ads.8le8le.com, imp.ads.rgyun.com, cdn.ads.rgyun.com, iadmusicmat.music.126.net, iadmat.nosdn.127.net, pgdt.ugdtimg.com, bj.ad.track.66mobi.com, img.meituan.net
