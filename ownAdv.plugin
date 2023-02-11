@@ -10,6 +10,8 @@
 ^https?:\/\/monitor\.ads\.8le8le\.com\/ - reject
 ^https?:\/\/images\.pinduoduo\.com\/ - reject-200
 ^https?:\/\/t-dsp\.pinduoduo\.com\/ - reject
+^https?:\/\/img[0-9]*\.360buyimg\.com\/ - reject-200
+^https?:\/\/im-x\.jd\.com\/ - reject
 # > 美团 - https://img.meituan.net/bizad/
 ^https?:\/\/img\.meituan\.net\/bizad\/ - reject
 
