@@ -8,9 +8,10 @@
 ^https?:\/\/cdn\.ads\.rgyun\.com\/ - reject
 ^https?:\/\/imp\.ads\.rgyun\.com\/ - reject
 ^https?:\/\/monitor\.ads\.8le8le\.com\/ - reject
-
+^https?:\/\/images\.pinduoduo\.com\/ - reject
+^https?:\/\/t-dsp\.pinduoduo\.com\/ - reject
 # > 美团 - https://img.meituan.net/bizad/
 ^https?:\/\/img\.meituan\.net\/bizad\/ - reject
 
 [MITM]
-hostname = monitor.ads.8le8le.com, imp.ads.rgyun.com, cdn.ads.rgyun.com, iadmusicmat.music.126.net, iadmat.nosdn.127.net, pgdt.ugdtimg.com, bj.ad.track.66mobi.com, img.meituan.net
+hostname = t-dsp.pinduoduo.com, images.pinduoduo.com, monitor.ads.8le8le.com, imp.ads.rgyun.com, cdn.ads.rgyun.com, iadmusicmat.music.126.net, iadmat.nosdn.127.net, pgdt.ugdtimg.com, bj.ad.track.66mobi.com, img.meituan.net
