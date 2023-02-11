@@ -1,14 +1,14 @@
 [URL Rewrite]
 
 # > 网易云 - iadmusicmat.music.126.net
-^https?:\/\/iadmusicmat\.music\.126\.net\/ - reject
+^https?:\/\/iadmusicmat\.music\.126\.net\/ - reject-200
 ^https?:\/\/iadmat\.nosdn\.127\.net\/ - reject
-^https?:\/\/pgdt\.ugdtimg\.com\/ - reject
+^https?:\/\/pgdt\.ugdtimg\.com\/ - reject-200
 ^https?:\/\/bj\.ad\.track\.66mobi\.com\/ - reject
 ^https?:\/\/cdn\.ads\.rgyun\.com\/ - reject
 ^https?:\/\/imp\.ads\.rgyun\.com\/ - reject
 ^https?:\/\/monitor\.ads\.8le8le\.com\/ - reject
-^https?:\/\/images\.pinduoduo\.com\/ - reject
+^https?:\/\/images\.pinduoduo\.com\/ - reject-200
 ^https?:\/\/t-dsp\.pinduoduo\.com\/ - reject
 # > 美团 - https://img.meituan.net/bizad/
 ^https?:\/\/img\.meituan\.net\/bizad\/ - reject
