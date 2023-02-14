@@ -2,18 +2,18 @@
 
 # > 网易云 - iadmusicmat.music.126.net
 ^https?:\/\/iadmusicmat\.music\.126\.net\/ - reject-200
-^https?:\/\/iadmat\.nosdn\.127\.net\/ - reject
+^https?:\/\/iadmat\.nosdn\.127\.net\/ - reject-200
 ^https?:\/\/pgdt\.ugdtimg\.com\/ - reject-200
-^https?:\/\/bj\.ad\.track\.66mobi\.com\/ - reject
-^https?:\/\/cdn\.ads\.rgyun\.com\/ - reject
-^https?:\/\/imp\.ads\.rgyun\.com\/ - reject
-^https?:\/\/monitor\.ads\.8le8le\.com\/ - reject
+^https?:\/\/bj\.ad\.track\.66mobi\.com\/ - reject-200
+^https?:\/\/cdn\.ads\.rgyun\.com\/ - reject-200
+^https?:\/\/imp\.ads\.rgyun\.com\/ - reject-200
+^https?:\/\/monitor\.ads\.8le8le\.com\/ - reject-200
 ^https?:\/\/images\.pinduoduo\.com\/ - reject-200
-^https?:\/\/t-dsp\.pinduoduo\.com\/ - reject
+^https?:\/\/t-dsp\.pinduoduo\.com\/ - reject-200
 ^https?:\/\/img[0-9]*\.360buyimg\.com\/ - reject-200
-^https?:\/\/im-x\.jd\.com\/ - reject
+^https?:\/\/im-x\.jd\.com\/ - reject-200
 # > 美团 - https://img.meituan.net/bizad/
-^https?:\/\/img\.meituan\.net\/bizad\/ - reject
+^https?:\/\/img\.meituan\.net\/bizad\/ - reject-200
 
 [MITM]
 hostname = t-dsp.pinduoduo.com, images.pinduoduo.com, monitor.ads.8le8le.com, imp.ads.rgyun.com, cdn.ads.rgyun.com, iadmusicmat.music.126.net, iadmat.nosdn.127.net, pgdt.ugdtimg.com, bj.ad.track.66mobi.com, img.meituan.net
