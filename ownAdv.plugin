@@ -1,7 +1,7 @@
 [URL Rewrite]
 
 # > 网易云 - iadmusicmat.music.126.net
-^https?:\/\/iadmusicmat\.music\.126\.net\/ - reject-200
+^https?:\/\/iadmusicmat\.music\.126\.net\/ - reject
 ^https?:\/\/iadmat\.nosdn\.127\.net\/ - reject-200
 ^https?:\/\/pgdt\.ugdtimg\.com\/ - reject-200
 ^https?:\/\/bj\.ad\.track\.66mobi\.com\/ - reject-200
@@ -11,7 +11,7 @@
 ^https?:\/\/images\.pinduoduo\.com\/ - reject-200
 ^https?:\/\/t-dsp\.pinduoduo\.com\/ - reject-200
 ^https?:\/\/img[0-9]*\.360buyimg\.com\/ - reject-200
-^https?:\/\/im-x\.jd\.com\/ - reject-200
+^https?:\/\/im-x\.jd\.com\/ - reject
 # > 美团 - https://img.meituan.net/bizad/
 ^https?:\/\/img\.meituan\.net\/bizad\/ - reject-200
 
