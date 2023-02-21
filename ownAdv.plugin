@@ -1,7 +1,7 @@
 [URL Rewrite]
 
 # > 网易云 - iadmusicmat.music.126.net
-^https?:\/\/iadmusicmat\.music\.126\.net\/ - reject
+^https?:\/\/iadmusicmat\.music\.126\.net\/ - reject-200
 ^https?:\/\/iadmat\.nosdn\.127\.net\/ - reject-200
 ^https?:\/\/pgdt\.ugdtimg\.com\/ - reject-200
 ^https?:\/\/bj\.ad\.track\.66mobi\.com\/ - reject-200
